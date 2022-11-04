@@ -1,0 +1,14 @@
+.card {
+  width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 100px);
+  grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8" "card9" "card10" "card11" "card12" "card13";
+}
+
+.card1 {
+  background-color: #c9316a;
+  grid-column: 1/13;
+  grid-row: 1/2;
+}/*# sourceMappingURL=main.css.map */
